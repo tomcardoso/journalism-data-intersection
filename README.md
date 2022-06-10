@@ -5,7 +5,7 @@ _Paul Klee, Castle and Sun, 1928._
 
 This is the repository for a talk on data-driven journalism, originally given at the University of Toronto’s Data Sciences Institute as part of the [Summer Undergraduate Data Science Research Program](https://datasciences.utoronto.ca/suds-cohort-program-2022/) on June 10, 2022. The slides can be found here: https://tomcardoso.github.io/journalism-data-intersection/
 
-Links to articles mentioned during the talk:
+Links to articles relevant to this talk:
 
 - [**Bias behind bars: A Globe investigation finds a prison system stacked against Black and Indigenous inmates** (Oct. 24, 2020)](https://www.theglobeandmail.com/canada/article-investigation-racial-bias-in-canadian-prison-risk-assessments/)
 - [**How we did it: How The Globe uncovered systemic bias in prisoners’ risk assessments** (Oct. 24, 2020)](https://www.theglobeandmail.com/canada/article-investigation-racial-bias-in-canadian-prisons-methodology/)
