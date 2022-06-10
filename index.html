@@ -86,11 +86,11 @@
 			<div class="slides">
 
 				<section>
-					<h1>Working at the intersection of journalism and data science</h1>
+					<h1>Working at the intersection of journalism and<br /> data science</h1>
 				</section>
 
 				<section>
-					<h1><a href="https://bit.ly/3pZs3mH">bit.ly/3pZs3mH</a></h1>
+					<h1><a href="https://bit.ly/3xhtUWd">bit.ly/3xhtUWd</a></h1>
 				</section>
 
 				<section>
@@ -106,16 +106,149 @@
 				</section>
 
 				<section>
+					<p>I’m going to focus this talk on how journalism and data work together. We won’t deal in methods at all — you already know all of that, or at least know how to learn that stuff.</p>
+					<p>Instead, I want to talk a bit about my “philosophy of data-driven reporting,” for lack of a better word.</p>
+				</section>
+
+				<section>
 					<p>Some of the stuff we’ll cover today:</p>
 					<ul>
-						<li></li>
+						<li>What does this job look like?</li>
+						<li>Why data?</li>
+						<li>Pitching and conceptualizing stories</li>
+						<li>Finding data</li>
+						<li>Reporting</li>
+						<li>All of that should take about 20 to 30 minutes. After that, we can have an open discussion.</li>
 					</ul>
 				</section>
 
-				<!-- STUFF GOES HERE -->
+				<section>
+					<h3>The job</h3>
+				</section>
 
 				<section>
-					<h3>Questions?</h3>
+					<p>Journalism is about many things — but, in its purest form, I think it is about <strong>holding powerful institutions and individuals accountable for their actions</strong>, and <strong>spurring reform</strong> wherever it is needed.</p>
+				</section>
+
+				<section>
+					<p>“Okay, sure,” you might say. “But what does this job actually look like in practice?”</p>
+				</section>
+
+				<section>
+					<p>Answer: A whole lot of this…</p>
+					<img style="width: 30vw;" src="img/kermit-reading.gif" alt="Kermit the Frog reading the newspaper">
+
+				</section>
+
+				<section>
+					<p>… and this…</p>
+					<img style="width: 30vw;" src="img/kermit-phone.gif" alt="Kermit the Frog talking on the phone">
+				</section>
+
+				<section>
+					<p>… and this.</p>
+					<img style="width: 30vw;" src="img/kermit-writing.gif" alt="Kermit the Frog writing in a notebook">
+				</section>
+
+				<section>
+					<p>We’ll get more into the process shortly, but in essence, it looks something like this:</p>
+					<ol>
+						<li>I find a topic I want to explore, then pitch a story.</li>
+						<li>Next comes reporting: Research, filing freedom of information requests, connecting with people (also known as source-building), finding and analyzing data, etc.</li>
+						<li>Then writing.</li>
+						<li>Then more reporting, back to writing, etc.</li>
+						<li>Finally, we publish.</li>
+					</ol>
+				</section>
+
+				<section>
+					<img class="w30" style="border: 1px solid black;" src="img/cover-1.jpg" alt="">
+					<img class="w30" style="border: 1px solid black;" src="img/cover-2.jpg" alt="">
+					<img class="w30" style="border: 1px solid black;" src="img/cover-3.jpg" alt="">
+				</section>
+
+				<section>
+					<p>All of those stories relied on statistical and data science techniques, and I used R (including a framework we developed at The Globe, <a href="https://github.com/globeandmail/startr">startr</a>) for almost all of the analysis work.</p>
+				</section>
+
+				<section>
+					<p>To be clear: I am <strong>not</strong> a data scientist. I have no formal training or background in statistics or R, and am entirely self-taught. That means I make a ton of mistakes!</p>
+					<p>I also don’t consider myself a “data journalist.” Instead, I’m a reporter that (often, but not always) uses data.</p>
+				</section>
+
+				<section>
+					<h3>On data</h3>
+					<p>(though I realize I’m preaching to the choir here)</p>
+				</section>
+
+				<section>
+					<p>Data is an <strong>extremely powerful journalistic tool</strong>, and it’s one most reporters don’t know how to use.</p>
+					<p>Much of reporting is <strong>anecdotal</strong>. Several reliable sources have told us X is happening, so we write that story. It’s an essentially qualitative process.</p>
+					<p>Data-driven reporting lets us approach problems from the opposite direction. Experts have told us for years they believe prisons are systemically racist against Indigenous and Black people (qualitative). With data, we can prove it (quantitative).</p>
+				</section>
+
+				<section>
+					<h3>Pitching</h3>
+				</section>
+
+				<section>
+					<p>All stories start with a pitch. For simpler stories, they’re often short — perhaps just a paragraph — while ones for major investigative projects are often several pages long.</p>
+					<p><strong>Pitches are about subjects or issues, not about data.</strong> <br />I never start a story by saying “I have this data, what could I do with it?” That’s a recipe for disaster.</p>
+					<p>Instead, I pick a topic I care about and think deserves scrutiny, then explore it, sometimes (but not always) with a hypothesis I’d like to test.</p>
+				</section>
+
+				<section style="font-size: 0.85em;">
+					<p>A good pitch will tell you:</p>
+					<ul>
+						<li>What is the issue we want to explore? Put another way: Who is being harmed?</li>
+						<li>Why are we tackling this story now? What makes it relevant? (We call this the story’s “hook.” You don’t always need to have one, but it helps.)</li>
+						<li>What are the major findings of our reporting, if they’re already known?</li>
+						<li>Who are we profiling or featuring? Journalism is storytelling. What is the narrative like?</li>
+						<li>Finally, for investigations: What is the desired impact of our story? What kind of reform do we want to see?</li>
+					</ul>
+				</section>
+
+				<section>
+					<p>For data-driven stories, the data is part of the reporting. We go looking for the right data once we know what kind of story we want to do.</p>
+					<p>In other words, I don’t start with the data. I start with the story or project, and then work backwards from that idea to find the data I need for the story. <strong>Not</strong> the other way around.</p>
+				</section>
+
+				<section>
+					<h3>Finding data</h3>
+				</section>
+
+				<section>
+					<img style="height: 60vh;" src="img/trufflepig.jpeg" alt="">
+				</section>
+
+				<section>
+					<p>Open data is <strong>terrible</strong>, and mostly useless.</p>
+					<p>Governments have strong self-preservation instincts. They’re not going to publish stuff that’s going to embarass them.</p>
+					<p>Because of that, with a few exceptions, if data is being openly shared by a government, it’s because the government decided that data was low risk — and, thus, useless.</p>
+				</section>
+
+				<section>
+					<p>If we want to hold the government or others institutions accountable, we need to procure our data elsewhere.</p>
+					<p>A few options here: You could make your own data (by scraping it) or obtain it by making connections (negotiating for it).</p>
+					<p>Or you could use my favourite method and <strong>file a freedom of information request</strong>.</p>
+				</section>
+
+				<section>
+					<p>(FOIs are an amazing tool for data journalism. If you want to learn more about that, you can <a href="https://github.com/tomcardoso/foi-data-journalism">check out my talk on this here</a>.)</p>
+				</section>
+
+				<section>
+					<h3>On reporting a data-driven story</h3>
+				</section>
+
+				<section>
+					<p>TO ADD STUFF HERE…</p>
+				</section>
+
+				<!-- TO ADD STUFF ON REPORTING PROCESS… -->
+
+				<section>
+					<h3>Questions, chat, etc.</h3>
 				</section>
 
 			</div>
