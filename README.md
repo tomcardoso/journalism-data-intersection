@@ -1,6 +1,6 @@
 # Working at the intersection of journalism and data science
 
-![Paul Klee, Castle and Sun, 1929](https://github.com/tomcardoso/journalism-data-intersection/blob/main/img/klee.jpeg?raw=true)
+![Paul Klee, Castle and Sun, 1929](https://github.com/tomcardoso/journalism-data-intersection/blob/main/img/klee.jpg?raw=true)
 _Paul Klee, Castle and Sun, 1929._
 
 This is the repository for a talk on data-driven journalism, originally given at the University of Toronto’s Data Sciences Institute as part of the [Summer Undergraduate Data Science Research Program](https://datasciences.utoronto.ca/suds-cohort-program-2022/) on June 10, 2022. The slides can be found here: https://tomcardoso.github.io/journalism-data-intersection/
